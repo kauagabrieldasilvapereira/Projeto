@@ -1,27 +1,32 @@
+
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(220, 195, 195) 50%, rgba(0,212,255,1) 100%);
+     margin: 0;
+    padding: 0%; 
+    bottom: 0px;
+    background: rgb(82, 82, 82);
 }
 
 .container {
+   
     width: 95%;
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
     flex-direction: column;
-    background-color: blanchedalmond;
+    background-color: rgb(0, 29, 90);
     height: 95vh;
     border-radius: 10px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-}
+    box-shadow: 0 0 10px 5px rgb(121, 183, 210);
+    position: relative;
+      }
+
 
 .header {
-    background-color: rgb(187, 214, 214);
+    background-color: rgb(101, 100, 103);
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -41,26 +46,41 @@ body {
 }
 
 .menu {
+    color: aliceblue;
     width: 10%;
-    background-color: cadetblue;
+    background-color: rgb(59, 70, 80);
     border-radius: 10px;
 }
+    .menu a {
+        color: aliceblue;
+    }
 
 .content {
     width: 90%;
     padding: 0 20px;
-    background-color: deepskyblue;
+    background-color: #9b9fa8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
 }
-
+.content a{
+    text-align: center;
+}
 
 ul > li {
     list-style: none;
     margin-left: -35px;
     cursor: pointer;
+}
+
+.form{
+    width: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #ccc;
 }
 

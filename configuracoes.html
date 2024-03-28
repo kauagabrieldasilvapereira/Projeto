@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configurações</title>
-    <link rel="stylesheet"  href="style.css">
-
+    <link rel="stylesheet" href="styleconfig.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Pousada Cleiton</h1>
-            
-        </div>
+           </div>
+        
         <div class="main">
             <div class="menu">
                 <ul>
@@ -20,9 +20,10 @@
                         <a href="paginicio.html"><i>Home</i></a>
                     </li><br>
                     <li>
-                        <a href="novareserva.html"><i>Nova Reserva</i></a>
-                    </li><br>
-                    <li>
+                        <li>
+                            <a href="novareserva.html"><i>Nova Reserva</i></a>
+                        </li><br>
+                        <li>
                         <a href="calendario.html"><i>Calendario</i></a>
                     </li><br>
                     <li>
@@ -32,26 +33,111 @@
                         <a href="despesas.html"><i>Despesas</i></a>
                     </li><br>
                     <li>
-                        <a href="configurações.html"><i>Configurações</i></a>
+                        <a href="configuracoes.html"><i>Configurações</i></a>
                     </li><br>
                     <li>
                         <a href="cadastro.html"><i>Cadastro de Usuarios</i></a>
                     </li><br>
                     <li>
                         <div><a href="login.html"><i>Sair</i></a></div>
-
+    
                     </li>
                 </ul>
-
+    
             </div>
-            <div class="content">
-                
-                <a href="estoque.html">Estoque</a>
-                <a href="personalizar.html">Personalizar</a>
-                <a href="politicas.html">Politicas</a>
+    <div class="tabs">
+        <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+        <label for="tab1" class="tab-label">Estoque</label>
+        
+        <input type="radio" id="tab2" name="tabGroup1" class="tab">
+        <label for="tab2" class="tab-label">Alteração de Cor</label>
+        
+        <input type="radio" id="tab3" name="tabGroup1" class="tab">
+        <label for="tab3" class="tab-label">Políticas</label>
 
+        <div class="tab-content" id="content1">
+            <!-- Conteúdo da aba Estoque -->
+            <h2>Configurações de Estoque</h2>
+            <p><ul>
+                <li>Cerveja (lata)</li>
+                <li>Cerveja (garrafa)</li>
+                <li>Vinho tinto</li>
+                <li>Vinho branco</li>
+                <li>Refrigerante (Coca-Cola)</li>
+                <li>Refrigerante (Guaraná)</li>
+                <li>Água mineral (500ml)</li>
+                <li>Água mineral (1L)</li>
+                <li>Suco de laranja natural</li>
+                <!-- Adicione mais itens conforme necessário -->
+            </ul></p>
         </div>
+        
+        <div class="tab-content" id="content2">
+            <!-- Conteúdo da aba Alteração de Cor -->
+            <h2>Configurações de Alteração de Cor</h2>
+            <p> 
+                
+                <label for="cor">Definit a cor do sistema:</label>
+                <input type="color" name="cor" id="cor">
+            <p> 
+        </div>
+        
+        <div class="tab-content" id="content3">
+            <!-- Conteúdo da aba Políticas -->
+            <h2>Configurações de Políticas</h2>
+            <p>Política de Reservas:
 
+                Os hóspedes devem fornecer informações válidas de contato ao fazer uma reserva.
+                Reservas podem ser feitas online, por telefone ou pessoalmente.
+                É necessário um depósito antecipado para garantir a reserva.</p>
+                <p>Política de Cancelamento:
+                
+                Cancelamentos devem ser feitos com pelo menos 7 dias de antecedência para evitar taxas.
+                O depósito pode ser reembolsável ou não reembolsável, dependendo do tempo de cancelamento.
+                Em caso de não comparecimento sem aviso prévio, será cobrada a tarifa total da primeira noite.
+                <p>Política de Check-in e Check-out:
+                
+                O horário de check-in é a partir das 14:00 horas.
+                O horário de check-out é até as 12:00 horas.
+                Check-in antecipado ou check-out tardio podem estar sujeitos a taxas adicionais e disponibilidade.</p>
+                <p>Política de Pagamento:
+                
+                O pagamento total ou parcial deve ser feito no momento do check-in.
+                Aceitamos dinheiro, cartões de crédito e débito como formas de pagamento.
+                Faturas detalhadas estão disponíveis mediante solicitação.</p>
+                <p>Política de Estacionamento:
+                
+                Oferecemos estacionamento gratuito para hóspedes durante a estadia.
+                O estacionamento está sujeito a disponibilidade e é por ordem de chegada.</p>
+                <p>Política de Hóspedes:
+                
+                A ocupação máxima do quarto deve ser respeitada.
+                Visitantes não registrados não são permitidos nos quartos após o horário determinado.
+                O hóspede é responsável por qualquer dano causado às instalações durante a estadia.</p>
+                <p>Política de Fumantes:
+                
+                Todas as áreas internas são estritamente para não fumantes.
+                Áreas designadas para fumantes estão disponíveis ao ar livre.</p>
+                <p>Política de Animais de Estimação:
+                
+                Animais de estimação são bem-vindos com aviso prévio e podem estar sujeitos a taxas adicionais.
+                Os proprietários são responsáveis por manter seus animais de estimação sob controle e limpar após eles.</p>
+                <p>Política de Reembolsos:
+                
+                Reembolsos podem ser processados somente de acordo com a política de cancelamento e após a devida verificação.</p>
+                <p>Política de Privacidade:
+                
+                As informações dos hóspedes são confidenciais e não serão compartilhadas com terceiros, exceto quando exigido por lei.</p>
+                <p>Política de Segurança:
+                
+                A segurança dos hóspedes é uma prioridade. Solicitamos que portas e janelas sejam fechadas e trancadas ao sair dos quartos.</p>
+                <p>Política de Barulho:
+                
+                Pedimos que os hóspedes respeitem o silêncio durante o horário noturno para garantir o conforto de todos os hóspedes.</p>
+                <p>Política de Responsabilidade Ambiental:
+                
+                Encorajamos práticas sustentáveis, como economia de água e energia, reciclagem e uso consciente de recursos.</p>
+        </div>
     </div>
 </body>
 </html>
